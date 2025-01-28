@@ -150,7 +150,7 @@ if __name__ == "__main__":
         'spExecute': 'SELECT sp_credentials_backup();',
         'pathExportTxt': os.path.join(varDicCurrent, '..', 'data', 'tmp_credentials'),
         'Destinatario': os.getenv('EMAIL'),
-        'Copia': 'ronaleduardobr.2016@gmail.com;',
+        'Copia': 'crreo123@gmail.com;',
         'CopiaOculta': '',
         'Asunto': f'Actualización de credenciales periodo {periodo_now}.',
         'Mensaje': f'Se comparte credenciales actualizadas para el periodo {periodo_now}. <br>',
